@@ -71,7 +71,6 @@ promptclass-app/
 │ └── app.js
 
 ├── requirements.txt
-
 └── README.md
 
 ---
@@ -125,6 +124,7 @@ Classes: cat, dog
 Output:
 
 cat → 0.92
+
 dog → 0.13
 
 Predicted: cat
