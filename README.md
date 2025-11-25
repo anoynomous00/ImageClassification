@@ -55,14 +55,23 @@ Predicted Class
 ## 📂 Folder Structure
 
 promptclass-app/
+
 ├── backend/
+
 │ ├── main.py
+
 │ └── model.py
+
 ├── frontend/
+
 │ ├── index.html
+
 │ ├── styles.css
+
 │ └── app.js
+
 ├── requirements.txt
+
 └── README.md
 
 ---
@@ -70,34 +79,41 @@ promptclass-app/
 ## 🔧 Installation & Setup
 
 ### 1️⃣ Clone the Repository
-
+``` bash
 git clone https://github.com/anoynomous00/ImageClassification.git
 
 cd ImageClassification/promptclass-app
+```
 
 2️⃣ Create Virtual Environment
 
+``` bash
 python -m venv .venv
+```
 
 3️⃣ Activate It
 
 Windows
-
+``` bash 
 .\.venv\Scripts\Activate.ps1
+```
 
 4️⃣ Install Requirements
-
+``` bash
 pip install -r requirements.txt
+```
 
 ▶️ Running the Project
 
 Start Backend
-
+``` bash
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+```
 
 🌐Open UI in Browser
-
+``` bash
 http://localhost:8000
+```
 
 #### 📸 Example
 
